@@ -1,0 +1,273 @@
+/* 
+    Document   : style
+    Created on : 27/12/2014, 10:50:02 PM
+    Author     : ot_00_000
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ body {
+  margin:0;
+  text-align:center;
+  font: 14px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+  padding:0 1em;
+ }
+ #header, #footer, section, aside, nav, article { display: block; }
+ #posts{
+  position:relative;
+  width:99%;
+  margin:0.5em auto;
+  background:#fdfefe;
+ }
+ 
+ #header{
+     position: relative;
+     margin: 0px auto;
+     height:300px;
+     width:1535px;
+     background: url("../images/header1.png") no-repeat scroll 0px 0px transparent;
+ }
+.logoImg{
+     float: right;
+     margin: 100px 60px 0 0;
+ }
+ 
+ .chineseTitle {
+     float: right;
+     margin: 100px 250px 0 0;
+     width: 200mm;
+     height: 30mm;
+ }
+ 
+ /*#menu {
+  float:left;
+  width:15em;
+  margin:0 auto;
+  background:#f8f9fe;
+  border:1px solid blue;
+  text-align:left;
+ }
+ #menu li a:hover {
+   text-decoration:none;
+   color:#01da02;
+ }
+ #article {
+  margin:0 1em 0 16em;
+  background:#efeffe;
+  border:1px solid #01da02;
+  padding:0.2em 0.4em;
+ }*/
+ #footer {
+  clear:both;
+  height:150px;
+  width: 1535px;
+  margin: 0px auto;
+  position:relative;
+  background:url("../images/footer1.png") no-repeat scroll 0px 0px transparent;
+ }
+
+ #content {
+     width: 1090px;
+     /*height:800px;*/
+     margin: 0px auto;
+     padding: 100px 0 100px 0;
+ }
+ 
+
+ /* Index home */
+ .hometable td{
+     
+     width: 500px;
+     
+ }
+ 
+ .roundImg img{
+     height: 200px;
+     width: 200px;
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
+ }
+ .title td{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .description {
+     text-align: left;
+     padding: 0;
+     margin: 0;
+ }
+ .description td{
+     vertical-align: top;
+     padding: 0 30px;
+ }
+ 
+ .advertise img{
+     width: 300px;
+ }
+ 
+
+ /* about us*/
+ .floatImg {
+     float:right;
+     padding:0 50px 100px 120px;
+ }
+ .aboutusText {
+     text-align: left;
+     padding: 20px 0 0 80px;
+ }
+ 
+ /*
+ contact us
+ */
+ .contactText{
+     font-size: 17px;
+     font-weight: bold;
+ }
+
+ /*Menu CSS */
+ 
+ 
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+}
+#cssmenu {
+  width: 1535px;
+  height: 59px;
+  margin: 4px auto;
+  padding-bottom: 8px;
+}
+#cssmenu .levelTwo{
+    display: none;
+}
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  margin-right: 0;
+  margin-left: 4px;
+}
+#cssmenu.align-right ul li:first-child,
+#cssmenu.align-right ul li:first-child > a {
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one,
+#cssmenu #bg-two,
+#cssmenu #bg-three,
+#cssmenu #bg-four {
+  position: absolute;
+  bottom: 0;
+  width: 1535px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#cssmenu #bg-one {
+  height: 10px;
+  background: #0f71ba;
+}
+#cssmenu #bg-two {
+  height: 59px;
+  z-index: 2;
+  background: url('../images/bg.png');
+}
+#cssmenu #bg-three {
+  bottom: 4px;
+  height: 55px;
+  z-index: 3;
+  background: #222222;
+  background: -moz-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -o-linear-gradient(top, #555555 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #555555 0%, #222222 100%);
+  background: linear-gradient(to bottom, #555555 0%, #222222 100%);
+}
+#cssmenu #bg-four {
+  bottom: 4px;
+  height: 55px;
+  z-index: 4;
+  background: url('../images/bg.png');
+}
+#cssmenu ul {
+  height: 59px;
+}
+#cssmenu ul li {
+  float: left;
+  margin-right: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  z-index: 5;
+}
+#cssmenu ul li a {
+  padding: 24px 30px 20px 30px;
+  margin-bottom: 4px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#cssmenu ul li:first-child,
+#cssmenu ul li:first-child > a {
+  border-bottom-left-radius: 3px;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li.active {
+  background: #0f71ba;
+  background: -moz-linear-gradient(top, #548ae4 0%, #214a9c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #548ae4), color-stop(100%, #214a9c));
+  background: -webkit-linear-gradient(top, #548ae4 0%, #214a9c 100%);
+  background: -o-linear-gradient(top, #548ae4 0%, #214a9c 100%);
+  background: -ms-linear-gradient(top, #548ae4 0%, #214a9c 100%);
+  background: linear-gradient(to bottom, #548ae4 0%, #214a9c 100%);
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active > a {
+  background: url('images/bg.png');
+  color: #ffffff;
+}
+
+#cssmenu ul li ul{
+    height: auto;
+}
+
+
+#cssmenu ul li ul li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+/*#cssmenu ul li ul a:hover{
+    padding-right: 54px;
+}
+*/
+
+#cssmenu ul li ul li{
+    width: 200px;
+    float: none;
+    background-color: #555555;
+}
+
+#cssmenu li:hover ul,
+#cssmenu li:focus ul{
+    position: absolute;
+    display: block;
+}
+
+#cssmenu li:hover ul li{
+    border-top: 1px solid #ffffff;
+}
